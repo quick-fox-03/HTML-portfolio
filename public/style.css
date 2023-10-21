@@ -1,0 +1,68 @@
+html{
+    font-family: 'Caveat', cursive;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    background-image: linear-gradient(to bottom right,red,purple,midnightblue);
+    color: antiquewhite;
+
+}
+
+h1, h2 {
+    
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+.intro{
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid lightpink;
+    padding: 5px;
+    float: left;
+}
+
+.project{
+    height: 400px;
+    width: 300px;
+}
+.centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: end;
+    gap: 50px;
+}
+
+@media (max-width: 480px){
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        justify-content: end;
+        gap: 10px;
+
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .intro{
+        
+        justify-content: center;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Exo+2:wght@300&family=Libre+Baskerville&family=Martian+Mono:wght@300&family=Titillium+Web&display=swap" rel="stylesheet">
+    <style>
+        html{
+            font-family: 'Caveat', cursive;
+        font-family: 'Exo 2', sans-serif;
+        font-family: 'Libre Baskerville', serif;
+        font-family: 'Martian Mono', monospace;
+        font-family: 'Titillium Web', sans-serif;
+        background-image: linear-gradient(purple,midnightblue);
+        color: aliceblue;
+        }
+        .projects{
+            display: flex;
+            flex-direction: row;
+            /* border: 2px solid black; */
+            gap: 2rem;
+        }
+        .movie{
+            flex: 1;
+            max-width: 600px;
+            /* border: 2px solid black; */
+            padding: 10px;
+        }
+        .movie > h3{
+            text-align: center;
+            font-size: 24px;
+        }
+        a{
+            color: wheat;
+        }
+        img{
+            position: relative;
+            left: 25%;
+            height: 300px;
+            width: 200px;
+            border: 5px solid black;
+            padding: 5px;
+            
+        }
+        @media (max-width:1250px) {
+            .projects{
+                flex-direction: column;
+            }
+            img{
+                left: 0%;
+                margin: 20px;
+                float: left;
+            }
+        }
+    </style>
+    <title>Movie Ranking</title>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">My favorite movies 🎥🍿</h1>
+        <h2>Here, I list my favorite movies.</h2>
+        <a href="../index.html">Click on this link to land on the home page of my Portfolio!</a>
+        <hr/>
+        <div class="projects">
+            <div class="movie"><h3>Whiplash 🥁</h3>
+            <a href="https://www.imdb.com/title/tt2582802/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_Whiplash"><img style="filter: drop-shadow(5px 5px 5px gold);" src="https://m.media-amazon.com/images/I/71wtLm8ph9L._UF1000,1000_QL80_.jpg"  /></a>
+            <p> The movie is a brilliant example of how art can be molded in whatever you want to express your ideas. At the surface, it shows the struggling journey of an ambitious music drummer student at a prestigious institution, coached by a incredibly tough teacher. But beneath this layer, is a story with multi-faceted personalities in each character, that has you questioning who is in the right or who is in the wrong?<br/>Click on the picture to go to the IMDB page!</p>
+            </div>
+            <div class="movie"><h3>Hot Fuzz 🍧</h3>
+            <a href="https://www.imdb.com/title/tt0425112/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_Hot%2520Fuzz"><img style="filter: drop-shadow(5px 5px 5px gold);" src="https://m.media-amazon.com/images/M/MV5BMzg4MDJhMDMtYmJiMS00ZDZmLThmZWUtYTMwZDM1YTc5MWE2XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"  /></a>
+            <p>Another brilliant movie, (am I overusing brilliant?) Edgar Wright has a unique talent of comedy and this movie is one of the best comedies I have seen.  <br/>Click on the picture to land on its IMDB page!</p>
+            </div>
+            <div class="movie"><h3>Everything Everywhere All At Once ♥</h3>    
+            <a href="https://www.imdb.com/title/tt6710474/?ref_=nv_sr_srsg_1_tt_7_nm_0_q_Everything"><img style="filter: drop-shadow(5px 5px 5px gold);" src="https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg"  /></a>
+            <p>A movie that is so strange I was utterly confused for the first half. The storytelling is impressive, the character and you, both have no idea what's going on, but as the movie goes on, you realise this movie has a lot more than just pretty visuals, wacky fights and nonsensical stuff. Beneath this mix of artful jokes and weird scenarios, lies a heart-swelling story of love, sacrifice and understanding. <br/>Click on the picture to land on its IMDB page!</p>
+            </div>
+        </div>
+    </div>
+    <hr/>
+    <a href="../index.html">Click on this link to land on the home page of my Portfolio!</a>
+</body>
+</html>
